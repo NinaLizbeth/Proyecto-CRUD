@@ -9,24 +9,45 @@
 </head>
 <body>
     <header>
-  <div>
-    <input type="search" placeholder="BUSCAR"> <button>BUSCAR</button>
-    <table class="tabla">
-        <tr>
-            <td>ID</td>
-            <td>NOMBRE</td>
-            <td>TIPO</td>
-            <td>RAZA</td>
-        </tr>
-    </table>
-        <div>
-        <button>AGREGAR</button>
-        <button>EDITAR</button>
-        <button>ELIMINAR</button>
-    </div>
-   
-  </div>
-    </header>
-
+		<div class="buscar">
+			<input class="input" type="text" id="buscador" placeholder="Buscar...">
+		</div>
+		<div class="editores">
+			<button id="agregar">AGREGAR</button>
+			<button id="editar">EDITAR</button>
+			<button id="eliminar">ELIMINAR</button>
+		</div>
+		<table class="tabla">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>NOMBRE</th>
+					<th>TIPO</th>
+					<th>RAZA</th>
+				</tr>
+			</thead>
+			<tbody id="tabla-body">
+				<tr>
+					<td>1</td>
+					<td>Luna</td>
+					<td>Perro</td>
+					<td>Labrador</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Molly</td>
+					<td>Gato</td>
+					<td>Siames</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Nala</td>
+					<td>Gato</td>
+					<td>Carey</td>
+				</tr>
+			</tbody>
+		</table>
+	</header>
+	<script src="mov.js"></script>
 </body>
 </html>
