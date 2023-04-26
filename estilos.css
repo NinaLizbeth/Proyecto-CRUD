@@ -15,10 +15,21 @@ th, td {
 }
 
 .input {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 5px ;
     padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    border: solid 1px black;
+}
+.busqueda {
+    height: 28px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 .editores button {
@@ -29,4 +40,7 @@ th, td {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
