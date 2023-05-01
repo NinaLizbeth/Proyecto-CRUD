@@ -8,7 +8,23 @@ font-family: 'Edu NSW ACT Foundation', cursive;
 font-family: 'Fasthand', cursive;
 font-family: 'Oswald', sans-serif;
 font-weight: bolder;
+background-color: #e8dceb;
+background-image: url(imagenes/57965\ copia.jpg);
+background-repeat: no-repeat;
+background-position:top;
+background-size: 50%;
+
 }
+nav{
+    height: 4rem;
+  background-color: white;
+}
+.logo{
+    width: 10rem;
+    margin-top: -10px;
+}
+
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -71,6 +87,13 @@ button {
 }
 
 @media only screen and (max-width: 800px){
+
+    nav {
+        width: 100vw;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .input{
         width: 10rem;
     }
