@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Fasthand&family=Oswald:wght@200&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="estilos.css">
     <title>Proyecto Crud</title>
 </head>
@@ -12,11 +16,20 @@
 		<div class="buscar">
 			<input class="input" type="text" id="buscador" placeholder="Buscar..."><button class="busqueda">BUSCAR</button>
 		</div>
-		<div class="editores">
-			<button id="agregar">AGREGAR</button>
-			<button id="editar">EDITAR</button>
-			<button id="eliminar">ELIMINAR</button>
-		</div>
+		<form id="form" >
+			<label class="name"   for="nombre">Nombre</label>
+			<input id="nombre" type="text" placeholder="Nombre...">
+			<select name="tipo" id="tipo">
+				<option value="perro">Perro</option>
+				<option value="gato">Gato</option>
+				<option value="hamster">Hamster</option>
+				<option value="tortuga">Tortuga</option>
+				<option value="ave">Ave</option>
+			</select>
+			<input id="raza" type="text" placeholder="Raza...">
+			<button type="submit" id="agregar">AGREGAR</button>
+		</form>
+
 		<table class="tabla">
 			<thead>
 				<tr>
@@ -24,26 +37,39 @@
 					<th>NOMBRE</th>
 					<th>TIPO</th>
 					<th>RAZA</th>
+					<th>FUNCIONES</th>
 				</tr>
 			</thead>
-			<tbody id="tabla-body">
+			<tbody id="tablabody">
 				<tr>
 					<td>1</td>
 					<td>Luna</td>
 					<td>Perro</td>
 					<td>Labrador</td>
+					<td>
+						<button id="editar">EDITAR</button>
+						<button id="eliminar">ELIMINAR</button>
+					</td>
 				</tr>
 				<tr>
 					<td>2</td>
 					<td>Molly</td>
 					<td>Gato</td>
 					<td>Siames</td>
+					<td>
+						<button id="editar">EDITAR</button>
+						<button id="eliminar">ELIMINAR</button>
+					</td>
 				</tr>
 				<tr>
 					<td>3</td>
 					<td>Nala</td>
 					<td>Gato</td>
 					<td>Carey</td>
+					<td>
+						<button id="editar">EDITAR</button>
+						<button id="eliminar">ELIMINAR</button>
+					</td>
 				</tr>
 			</tbody>
 		</table>
