@@ -101,24 +101,37 @@ button {
         margin-right: 0px;
     }
     .input{
-        width: 10rem;
+        width: 8rem;
+       
     }
     #nombre{
         width: 15rem;
     }
     #tipo{
         width: 15rem;
-        margin-left: 3.5rem;
+        margin-left: 3.1rem;
     }
     #raza{
         width: 8rem;
-        margin-left: 3.5rem;
+        margin-left: 3.1rem;
     }
     .name{
-        margin-left: 12px;
+        margin-left: 4px;
     }
     #editar{
-        width: 100px;
+        width: 75px;
+font-size: 50%;
     }
-    }
+    #eliminar{
+        width: 75px;
+     font-size: 50%;
 
+        
+    }
+    .color{
+        font-size: 15px;
+    }
+    table{
+        margin-left: 1px;
+    }
+}
