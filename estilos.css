@@ -23,10 +23,16 @@ nav{
     width: 10rem;
     margin-top: -10px;
 }
-
-
+.color{
+    color: #10a779;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+}
 table {
-    border-collapse: collapse;
+margin-left: 20px;
     width: 100%;
 }
 
