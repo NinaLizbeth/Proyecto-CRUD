@@ -3,40 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-font-family: 'Edu NSW ACT Foundation', cursive;
-font-family: 'Fasthand', cursive;
-font-family: 'Oswald', sans-serif;
-font-weight: bolder;
-background-color: #e8dceb;
-background-image: url(imagenes/57965\ copia.jpg);
-background-repeat: no-repeat;
-background-position:top;
-background-size: 50%;
+
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    background-color: #e8dceb;
+    background-image: url(imagenes/57965\ copia.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 50%;
 
 }
-nav{
+
+nav {
     height: 4rem;
-  background-color: white;
+    background-color: white;
 }
-.logo{
+
+.logo {
     width: 10rem;
     margin-top: -10px;
 }
-.color{
+
+.color {
     color: #10a779;
     font-family: 'Edu NSW ACT Foundation', cursive;
-font-family: 'Fasthand', cursive;
-font-family: 'Heebo', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-size: 25px;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
 }
+
 table {
-margin-left: 20px;
+    margin-left: 20px;
     width: 100%;
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -53,9 +59,11 @@ th, td {
 
 
 }
-.name{
+
+.name {
     margin-left: 20px;
 }
+
 .busqueda {
     height: 2rem;
     width: 90px;
@@ -64,18 +72,21 @@ th, td {
     border-radius: 10px;
     text-align: center;
 }
-#nombre{
+
+#nombre {
     width: 27rem;
     height: 2rem;
     border-radius: 4px;
 }
-#tipo{
+
+#tipo {
     width: 27rem;
     height: 2rem;
-    border-radius: 4px; 
-    border: solid 1.8px black; 
+    border-radius: 4px;
+    border: solid 1.8px black;
 }
-#raza{
+
+#raza {
     width: 27rem;
     height: 2rem;
     border-radius: 4px;
@@ -92,7 +103,7 @@ button {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
 
     nav {
         width: 100vw;
@@ -100,38 +111,47 @@ button {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .input{
+
+    .input {
         width: 8rem;
-       
+
     }
-    #nombre{
+
+    #nombre {
         width: 15rem;
     }
-    #tipo{
+
+    #tipo {
         width: 15rem;
         margin-left: 3.1rem;
     }
-    #raza{
+
+    #raza {
         width: 8rem;
         margin-left: 3.1rem;
     }
-    .name{
+
+    .name {
         margin-left: 4px;
     }
-    #editar{
-        width: 75px;
-font-size: 50%;
-    }
-    #eliminar{
-        width: 75px;
-     font-size: 50%;
 
-        
+    #editar {
+        width: 75px;
+        font-size: 50%;
     }
-    .color{
+
+    #eliminar {
+        width: 75px;
+        font-size: 50%;
+
+
+    }
+
+    .color {
         font-size: 15px;
     }
-    table{
+
+    table {
         margin-left: 1px;
     }
 }
