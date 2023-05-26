@@ -1,7 +1,8 @@
 # Proyecto-CRUD
 
 #  🐶 **2do proyecto de bootcamp “Desarrollo Web Full Stack”(CRUD).** 🐶
-![Whats-App-Image-2023-05-26-at-16-30-54-1.jpg](https://postimg.cc/9Dh4y9mc)
+![github](crud.jpeg)
+
 
 ## *Maqueta de pagina para registro de ingreso de mascotas veterinaria(CRUD) 2do proyecto UDD.* :notebook:
 ---
