@@ -86,10 +86,18 @@ td {
     border: solid 1.8px black;
 }
 
+.tip{
+    margin-left: 20px;
+}
+
 #raza {
     width: 27rem;
     height: 2rem;
     border-radius: 4px;
+}
+
+.raz{
+    margin-left: 70px;
 }
 
 button {
@@ -130,10 +138,13 @@ button {
         margin-left: 3.1rem;
     }
 
+
+
     #raza {
         width: 8rem;
         margin-left: 3.1rem;
     }
+
 
     .name {
         margin-left: 4px;
