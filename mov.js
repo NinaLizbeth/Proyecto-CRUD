@@ -37,6 +37,10 @@ function crearMascota() {
         tipo: tipo.value,
         raza: raza.value
     }
+    if(nombre.value === '' || raza.value === ''){
+        Swal.fire('Por favor rellena todos los campos')
+        return
+    }
     // guardo el objeto mascota dentro de mi array de mascotas y le aplico el metodo push para agregarla al arreglo.
     arregloMascotas.push(mascota)
     // Llamo a la funcion guardarEnLS() para agregarla al localStorage.

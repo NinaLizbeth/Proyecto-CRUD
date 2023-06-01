@@ -34,17 +34,21 @@
 		</div>
 		<form id="form">
 			<label class="name" for="nombre"> Nombre</label>
-			<input id="nombre" type="text" placeholder="Nombre...">
+			<input id="nombre" type="text" placeholder="Nombre..." required>
 
-			<select name="tipo" id="tipo"placeholder="Tipo...">
+
+			<select name="tipo" id="tipo"placeholder="Tipo..." required>
+				<optgroup label="Tipo...">	
+				<option value="otro"  selected disabled>Tipo</option>
 				<option value="perro">Perro</option>
 				<option value="gato">Gato</option>
 				<option value="hamster">Hamster</option>
 				<option value="tortuga">Tortuga</option>
 				<option value="ave">Ave</option>
+			</optgroup>
 			</select>
 
-			<input id="raza" type="text" placeholder="Raza...">
+			<input id="raza" type="text" placeholder="Raza..." required>
 			<button type="submit" id="agregar">AGREGAR</button>
 			<button class="oculto" type="submit" id="actualizar">ACTUALIZAR</button>
 		</form>
@@ -64,6 +68,7 @@
 			</tbody>
 		</table>
 	</header>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="mov.js"></script>
 </body>
 
